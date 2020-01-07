@@ -1,0 +1,6 @@
+The Filesystem library provides facilities for performing operations on file systems and their components, such as paths, regular files, and directories.
+
+The filesystem library was originally developed as boost.filesystem, was published as the technical specification ISO/IEC TS 18822:2015, and finally merged to ISO C++ as of C++17. The boost implementation is currently available on more compilers and platforms than the C++17 library.
+The filesystem library facilities may be unavailable if a hierarchical file system is not accessible to the implementation, or if it does not provide the necessary capabilities. Some features may not be available if they are not supported by the underlying file system (e.g. the FAT filesystem lacks symbolic links and forbids multiple hardlinks). In those cases, errors must be reported.
+
+The behavior is undefined if the calls to functions in this library introduce a file system race, that is, when multiple threads, processes, or computers interleave access and modification to the same object in a file system.
