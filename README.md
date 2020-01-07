@@ -58,5 +58,3 @@ user@MacBook~ % /Users/username/Documents/Client/client_exe --help
 Формат ввода (путь обязательно указывать в " "):
 <client_exe> "/Users/username/Documents/Client/input.txt"
 ```
-
-
